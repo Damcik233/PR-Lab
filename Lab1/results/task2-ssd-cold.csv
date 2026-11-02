@@ -1,0 +1,10 @@
+task,mode,threads,run,time_ms,peak_mb,negative,positive,zero,total,correct,extra
+2,-,1,1,702.3,77.4,25000383,24999592,25,50000000,true,files:8;read_ms_sum:181.0;parse_ms_sum:515.5;mb_per_s:526.1
+2,-,2,1,424.737,253.7,25000383,24999592,25,50000000,true,files:8;read_ms_sum:298.2;parse_ms_sum:533.3;mb_per_s:869.8
+2,-,4,1,268.973,253.66,25000383,24999592,25,50000000,true,files:8;read_ms_sum:485.7;parse_ms_sum:541.0;mb_per_s:1373.5
+2,-,1,1,720.396,77.43,25000383,24999592,25,50000000,true,files:8;read_ms_sum:187.9;parse_ms_sum:527.1;mb_per_s:512.8
+2,-,2,1,416.168,253.8,25000383,24999592,25,50000000,true,files:8;read_ms_sum:296.7;parse_ms_sum:519.1;mb_per_s:887.7
+2,-,4,1,257.888,385.73,25000383,24999592,25,50000000,true,files:8;read_ms_sum:482.5;parse_ms_sum:524.3;mb_per_s:1432.6
+2,-,1,1,700.303,77.43,25000383,24999592,25,50000000,true,files:8;read_ms_sum:179.6;parse_ms_sum:514.6;mb_per_s:527.6
+2,-,2,1,420.249,121.61,25000383,24999592,25,50000000,true,files:8;read_ms_sum:312.8;parse_ms_sum:517.5;mb_per_s:879.1
+2,-,4,1,261.905,385.72,25000383,24999592,25,50000000,true,files:8;read_ms_sum:485.2;parse_ms_sum:539.7;mb_per_s:1410.6

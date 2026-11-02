@@ -1,0 +1,7 @@
+task,mode,threads,run,time_ms,peak_mb,negative,positive,zero,total,correct,extra
+1b,unsync,16,1,145.896,414.78,7505013,7427795,25,14932833,false,run:1;lost_updates:35067167
+1b,unsync,16,1,126.54,415.15,6993276,7164496,25,14157797,false,run:2;lost_updates:35842203
+1b,unsync,16,1,444.917,415.33,3779562,3786515,25,7566102,false,run:3;lost_updates:42433898
+1b,lock,16,1,3686.698,415.64,25000383,24999592,25,50000000,true,run:1;lost_updates:0
+1b,atomic,16,1,1145.198,415.76,25000383,24999592,25,50000000,true,run:1;lost_updates:0
+1b,local,16,1,20.277,415.92,25000383,24999592,25,50000000,true,run:1;lost_updates:0

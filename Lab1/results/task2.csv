@@ -1,0 +1,4 @@
+task,mode,threads,run,time_ms,peak_mb,negative,positive,zero,total,correct,extra
+2,-,1,1,58781.171,77.75,25000383,24999592,25,50000000,true,files:8;read_ms_sum:58265.7;parse_ms_sum:510.2;mb_per_s:6.3
+2,-,2,1,59624.856,121.82,25000383,24999592,25,50000000,true,files:8;read_ms_sum:118635.8;parse_ms_sum:513.3;mb_per_s:6.2
+2,-,4,1,59181.853,386.07,25000383,24999592,25,50000000,true,files:8;read_ms_sum:235885.5;parse_ms_sum:516.2;mb_per_s:6.2

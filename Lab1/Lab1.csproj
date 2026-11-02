@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Lab1</AssemblyName>
+    <RootNamespace>Lab1</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+
+    <!-- Benchmark-friendly runtime settings:
+         - TieredCompilation off: every method is compiled fully optimised on first call,
+           so the first measured run is not slowed down by unoptimised (tier-0) code.
+         - Workstation, non-concurrent GC: no background GC thread competing with ours. -->
+    <TieredCompilation>false</TieredCompilation>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+  </PropertyGroup>
+
+</Project>

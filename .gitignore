@@ -426,3 +426,6 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Lab 1 generated data (369 MB, regenerate with: dotnet run -c Release --project Lab1 -- gen)
+Lab1/data/

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="16" y="26" font-size="17" font-weight="600" fill="#0b0b0b">Task 1a vs 1c – peak memory (RSS)</text>
+<text x="16" y="64" font-size="12" fill="#52514e">MiB</text>
+<circle cx="22.0" cy="46.0" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<text x="32" y="50" font-size="12" fill="#52514e">Task 1a</text>
+<rect x="96.5" y="41.5" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<text x="111" y="50" font-size="12" fill="#52514e">Task 1c</text>
+<line x1="72" x2="610" y1="384.0" y2="384.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="388.0" font-size="11" fill="#52514e" text-anchor="end">0</text>
+<line x1="72" x2="610" y1="307.5" y2="307.5" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="311.5" font-size="11" fill="#52514e" text-anchor="end">20</text>
+<line x1="72" x2="610" y1="231.0" y2="231.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="235.0" font-size="11" fill="#52514e" text-anchor="end">40</text>
+<line x1="72" x2="610" y1="154.5" y2="154.5" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="158.5" font-size="11" fill="#52514e" text-anchor="end">60</text>
+<line x1="72" x2="610" y1="78.0" y2="78.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="82.0" font-size="11" fill="#52514e" text-anchor="end">80</text>
+<line x1="72.0" x2="72.0" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="72.0" y="403" font-size="11" fill="#52514e" text-anchor="middle">1</text>
+<line x1="161.7" x2="161.7" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="161.7" y="403" font-size="11" fill="#52514e" text-anchor="middle">2</text>
+<line x1="251.3" x2="251.3" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="251.3" y="403" font-size="11" fill="#52514e" text-anchor="middle">4</text>
+<line x1="341.0" x2="341.0" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="341.0" y="403" font-size="11" fill="#52514e" text-anchor="middle">8</text>
+<line x1="430.7" x2="430.7" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="430.7" y="403" font-size="11" fill="#52514e" text-anchor="middle">16</text>
+<line x1="520.3" x2="520.3" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="520.3" y="403" font-size="11" fill="#52514e" text-anchor="middle">32</text>
+<line x1="610.0" x2="610.0" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="610.0" y="403" font-size="11" fill="#52514e" text-anchor="middle">64</text>
+<line x1="72" x2="610" y1="384" y2="384" stroke="#a8a7a2" stroke-width="1"/>
+<text x="341" y="428" font-size="12" fill="#52514e" text-anchor="middle">number of threads (Task 1c: worker threads, plus 1 reader)</text>
+<line x1="303.8" x2="303.8" y1="76" y2="384" stroke="#8a8984" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="303.8" y="72" font-size="11" fill="#52514e" text-anchor="middle">6 P-cores</text>
+<line x1="369.9" x2="369.9" y1="76" y2="384" stroke="#8a8984" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="369.9" y="72" font-size="11" fill="#52514e" text-anchor="middle">10 cores</text>
+<line x1="430.7" x2="430.7" y1="76" y2="384" stroke="#8a8984" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="430.7" y="72" font-size="11" fill="#52514e" text-anchor="middle">16 logical</text>
+<path d="M72.0,262.2 L161.7,261.1 L251.3,258.8 L341.0,255.2 L430.7,245.6 L520.3,228.6 L610.0,205.4" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="72.0" cy="262.2" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="161.7" cy="261.1" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="251.3" cy="258.8" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="341.0" cy="255.2" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="430.7" cy="245.6" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="520.3" cy="228.6" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="610.0" cy="205.4" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<path d="M72.0,192.5 L161.7,193.1 L251.3,183.3 L341.0,172.3 L430.7,183.0 L520.3,164.0 L610.0,172.4" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="67.5" y="188.0" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="157.2" y="188.6" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="246.8" y="178.8" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="336.5" y="167.8" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="426.2" y="178.5" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="515.8" y="159.5" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="605.5" y="167.9" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<text x="620" y="209.4" font-size="11" fill="#52514e">Task 1a  46.7</text>
+<text x="620" y="176.4" font-size="11" fill="#52514e">Task 1c  55.3</text>
+</svg>

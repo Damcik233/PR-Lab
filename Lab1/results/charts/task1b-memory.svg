@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="16" y="26" font-size="17" font-weight="600" fill="#0b0b0b">Task 1b – peak memory (RSS)</text>
+<text x="16" y="64" font-size="12" fill="#52514e">MiB</text>
+<circle cx="22.0" cy="46.0" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<text x="32" y="50" font-size="12" fill="#52514e">1b unsync</text>
+<rect x="110.5" y="41.5" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<text x="125" y="50" font-size="12" fill="#52514e">1b lock</text>
+<path d="M194.0,40.0 L199.5,50.0 L188.5,50.0 Z" stroke="#ffffff" stroke-width="2" fill="#1baf7a" />
+<text x="204" y="50" font-size="12" fill="#52514e">1b atomic</text>
+<path d="M287.0,40.0 L293.0,46.0 L287.0,52.0 L281.0,46.0 Z" stroke="#ffffff" stroke-width="2" fill="#eda100" />
+<text x="297" y="50" font-size="12" fill="#52514e">1b local</text>
+<line x1="72" x2="610" y1="384.0" y2="384.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="388.0" font-size="11" fill="#52514e" text-anchor="end">0</text>
+<line x1="72" x2="610" y1="322.8" y2="322.8" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="326.8" font-size="11" fill="#52514e" text-anchor="end">100</text>
+<line x1="72" x2="610" y1="261.6" y2="261.6" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="265.6" font-size="11" fill="#52514e" text-anchor="end">200</text>
+<line x1="72" x2="610" y1="200.4" y2="200.4" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="204.4" font-size="11" fill="#52514e" text-anchor="end">300</text>
+<line x1="72" x2="610" y1="139.2" y2="139.2" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="143.2" font-size="11" fill="#52514e" text-anchor="end">400</text>
+<line x1="72" x2="610" y1="78.0" y2="78.0" stroke="#e6e5e1" stroke-width="1"/>
+<text x="64" y="82.0" font-size="11" fill="#52514e" text-anchor="end">500</text>
+<line x1="72.0" x2="72.0" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="72.0" y="403" font-size="11" fill="#52514e" text-anchor="middle">1</text>
+<line x1="161.7" x2="161.7" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="161.7" y="403" font-size="11" fill="#52514e" text-anchor="middle">2</text>
+<line x1="251.3" x2="251.3" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="251.3" y="403" font-size="11" fill="#52514e" text-anchor="middle">4</text>
+<line x1="341.0" x2="341.0" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="341.0" y="403" font-size="11" fill="#52514e" text-anchor="middle">8</text>
+<line x1="430.7" x2="430.7" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="430.7" y="403" font-size="11" fill="#52514e" text-anchor="middle">16</text>
+<line x1="520.3" x2="520.3" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="520.3" y="403" font-size="11" fill="#52514e" text-anchor="middle">32</text>
+<line x1="610.0" x2="610.0" y1="384" y2="389" stroke="#a8a7a2"/>
+<text x="610.0" y="403" font-size="11" fill="#52514e" text-anchor="middle">64</text>
+<line x1="72" x2="610" y1="384" y2="384" stroke="#a8a7a2" stroke-width="1"/>
+<text x="341" y="428" font-size="12" fill="#52514e" text-anchor="middle">number of threads</text>
+<line x1="369.9" x2="369.9" y1="76" y2="384" stroke="#8a8984" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="369.9" y="72" font-size="11" fill="#52514e" text-anchor="middle">10 cores</text>
+<line x1="430.7" x2="430.7" y1="76" y2="384" stroke="#8a8984" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="430.7" y="72" font-size="11" fill="#52514e" text-anchor="middle">16 logical</text>
+<path d="M72.0,130.3 L161.7,130.2 L251.3,130.2 L341.0,130.1 L430.7,130.1 L520.3,130.0 L610.0,129.9" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="72.0" cy="130.3" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="161.7" cy="130.2" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="251.3" cy="130.2" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="341.0" cy="130.1" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="430.7" cy="130.1" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="520.3" cy="130.0" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<circle cx="610.0" cy="129.9" r="5" stroke="#ffffff" stroke-width="2" fill="#2a78d6" />
+<path d="M72.0,130.1 L161.7,129.9 L251.3,129.9 L341.0,129.8 L430.7,129.8 L520.3,129.5 L610.0,129.0" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="67.5" y="125.6" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="157.2" y="125.4" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="246.8" y="125.4" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="336.5" y="125.3" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="426.2" y="125.3" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="515.8" y="125.0" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<rect x="605.5" y="124.5" width="9" height="9" rx="1.5" stroke="#ffffff" stroke-width="2" fill="#eb6834" />
+<path d="M72.0,130.0 L161.7,129.9 L251.3,129.9 L341.0,129.8 L430.7,129.7 L520.3,129.3 L610.0,128.6" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M72.0,124.0 L77.5,134.0 L66.5,134.0 Z" stroke="#ffffff" stroke-width="2" fill="#1baf7a" />
+<path d="M161.7,123.9 L167.2,133.9 L156.2,133.9 Z" stroke="#ffffff" stroke-width="2" fill="#1baf7a" />
+<path d="M251.3,123.9 L256.8,133.9 L245.8,133.9 Z" stroke="#ffffff" stroke-width="2" fill="#1baf7a" />
+<path d="M341.0,123.8 L346.5,133.8 L335.5,133.8 Z" stroke="#ffffff" stroke-width="2" fill="#1baf7a" />
+<path d="M430.7,123.7 L436.2,133.7 L425.2,133.7 Z" stroke="#ffffff" stroke-width="2" fill="#1baf7a" />
+<path d="M520.3,123.3 L525.8,133.3 L514.8,133.3 Z" stroke="#ffffff" stroke-width="2" fill="#1baf7a" />
+<path d="M610.0,122.6 L615.5,132.6 L604.5,132.6 Z" stroke="#ffffff" stroke-width="2" fill="#1baf7a" />
+<path d="M72.0,130.0 L161.7,129.9 L251.3,129.8 L341.0,129.7 L430.7,129.6 L520.3,129.1 L610.0,128.3" fill="none" stroke="#eda100" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M72.0,124.0 L78.0,130.0 L72.0,136.0 L66.0,130.0 Z" stroke="#ffffff" stroke-width="2" fill="#eda100" />
+<path d="M161.7,123.9 L167.7,129.9 L161.7,135.9 L155.7,129.9 Z" stroke="#ffffff" stroke-width="2" fill="#eda100" />
+<path d="M251.3,123.8 L257.3,129.8 L251.3,135.8 L245.3,129.8 Z" stroke="#ffffff" stroke-width="2" fill="#eda100" />
+<path d="M341.0,123.7 L347.0,129.7 L341.0,135.7 L335.0,129.7 Z" stroke="#ffffff" stroke-width="2" fill="#eda100" />
+<path d="M430.7,123.6 L436.7,129.6 L430.7,135.6 L424.7,129.6 Z" stroke="#ffffff" stroke-width="2" fill="#eda100" />
+<path d="M520.3,123.1 L526.3,129.1 L520.3,135.1 L514.3,129.1 Z" stroke="#ffffff" stroke-width="2" fill="#eda100" />
+<path d="M610.0,122.3 L616.0,128.3 L610.0,134.3 L604.0,128.3 Z" stroke="#ffffff" stroke-width="2" fill="#eda100" />
+<text x="620" y="177.3" font-size="11" fill="#52514e">1b unsync  415</text>
+<text x="620" y="162.3" font-size="11" fill="#52514e">1b lock  417</text>
+<text x="620" y="147.3" font-size="11" fill="#52514e">1b atomic  417</text>
+<text x="620" y="132.3" font-size="11" fill="#52514e">1b local  418</text>
+</svg>
