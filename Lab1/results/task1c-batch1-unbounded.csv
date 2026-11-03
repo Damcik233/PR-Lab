@@ -1,2 +1,2 @@
 task,mode,threads,run,time_ms,peak_mb,negative,positive,zero,total,correct,extra
-1c,-,1,1,17522.191,49.53,25000383,24999592,25,50000000,true,batch:1;capacity:0;reader_ms:17520.3;reader_wait_ms:0.0;queue_full_events:0;max_queue:40203;avg_worker_wait_ms:4044.6
+1c,-,1,1,11524.352,42.27,25000383,24999592,25,50000000,true,batch:1;capacity:0;reader_ms:11522.9;reader_wait_ms:0.0;queue_full_events:0;max_queue:21782;avg_worker_wait_ms:3042.0

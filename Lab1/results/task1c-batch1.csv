@@ -1,4 +1,4 @@
 task,mode,threads,run,time_ms,peak_mb,negative,positive,zero,total,correct,extra
-1c,-,1,1,17026.631,44.33,25000383,24999592,25,50000000,true,batch:1;capacity:100;reader_ms:17024.8;reader_wait_ms:54.9;queue_full_events:57512;avg_worker_wait_ms:3281.4
-1c,-,4,1,36975.194,44.89,25000383,24999592,25,50000000,true,batch:1;capacity:100;reader_ms:36974.2;reader_wait_ms:2.6;queue_full_events:229;avg_worker_wait_ms:31769.4
-1c,-,16,1,40307.481,44.98,25000383,24999592,25,50000000,true,batch:1;capacity:100;reader_ms:40306.5;reader_wait_ms:3.2;queue_full_events:1614;avg_worker_wait_ms:38682.3
+1c,-,1,1,20966.89,39.94,25000383,24999592,25,50000000,true,batch:1;capacity:100;reader_ms:20965.4;reader_wait_ms:159.7;queue_full_events:10858;max_queue:100;avg_worker_wait_ms:5791.8
+1c,-,4,1,55653.756,40.15,25000383,24999592,25,50000000,true,batch:1;capacity:100;reader_ms:55644.3;reader_wait_ms:10.5;queue_full_events:1277;max_queue:100;avg_worker_wait_ms:48666.3
+1c,-,16,1,72797.574,40.55,25000383,24999592,25,50000000,true,batch:1;capacity:100;reader_ms:72781.3;reader_wait_ms:3.7;queue_full_events:12;max_queue:100;avg_worker_wait_ms:70262.9

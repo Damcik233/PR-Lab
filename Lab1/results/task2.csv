@@ -1,4 +1,4 @@
 task,mode,threads,run,time_ms,peak_mb,negative,positive,zero,total,correct,extra
-2,-,1,1,58781.171,77.75,25000383,24999592,25,50000000,true,files:8;read_ms_sum:58265.7;parse_ms_sum:510.2;mb_per_s:6.3
-2,-,2,1,59624.856,121.82,25000383,24999592,25,50000000,true,files:8;read_ms_sum:118635.8;parse_ms_sum:513.3;mb_per_s:6.2
-2,-,4,1,59181.853,386.07,25000383,24999592,25,50000000,true,files:8;read_ms_sum:235885.5;parse_ms_sum:516.2;mb_per_s:6.2
+2,-,1,1,18987.449,245.73,25000383,24999592,25,50000000,true,files:8;read_ms_sum:18539.0;parse_ms_sum:442.6;mb_per_s:19.5
+2,-,2,1,18554.488,248.18,25000383,24999592,25,50000000,true,files:8;read_ms_sum:34321.2;parse_ms_sum:477.0;mb_per_s:19.9
+2,-,4,1,18373.463,380.42,25000383,24999592,25,50000000,true,files:8;read_ms_sum:59240.2;parse_ms_sum:464.2;mb_per_s:20.1
